@@ -1,0 +1,50 @@
+.LoginContainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #4c8bf5;
+}
+h3 {
+  padding: 2rem 4rem;
+  background-color: #4c8bf5;
+  margin: 0;
+}
+.InputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: 30%;
+  border: 1px solid white;
+  margin-top: 10%;
+}
+
+.InputContainer label {
+  align-self: flex-start;
+  margin-left: 10%;
+  padding: 0;
+}
+.InputContainer input {
+  padding: 0.5rem 2.5rem;
+  border-radius: 10px;
+  border: none;
+  margin: 0.5rem;
+}
+.InputContainer button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: lightgray;
+  margin-top: 1rem;
+}
+@media (min-width: 500px) {
+  .InputContainer {
+    width: 30%;
+    height: 30%;
+  }
+}

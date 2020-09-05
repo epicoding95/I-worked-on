@@ -1,0 +1,33 @@
+.OverlayContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.ModalContainer {
+  background-color: lightblue;
+  opacity: 0.85;
+  position: fixed;
+  z-index: 30;
+  width: 400px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ModalContainer button {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+.ModalContainer h3 {
+  background: transparent;
+  text-align: center;
+}
+.ModalContainer p {
+  text-align: center;
+  font-size: 1.1rem;
+}
